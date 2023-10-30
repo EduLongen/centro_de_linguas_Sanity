@@ -16,11 +16,8 @@ export default {
     },
     {
       name: 'instagram_usuario',
-      type: 'url',
+      type: 'string',
       title: 'Instagram do usuário',
-      validation: Rule => Rule.uri({
-        scheme: ['http', 'https', 'mailto',]
-      })
     },
     {
       name: 'texto_avaliacao',
