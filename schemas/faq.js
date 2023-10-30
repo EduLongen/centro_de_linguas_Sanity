@@ -2,17 +2,17 @@
 export default{
   name:'faq',
   type: 'document',
-  title: 'faq',
+  title: 'Faq',
   fields:[
     {
       name:'pergunta',
       type:'string',
-      title:'pergunta'
+      title:'Pergunta'
     },
     {
       name:'resposta',
       type:'string',
-      title:'resposta'
+      title:'Resposta'
     }
   ]
 }
