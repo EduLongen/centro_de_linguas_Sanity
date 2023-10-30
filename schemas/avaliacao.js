@@ -15,6 +15,11 @@ export default {
       title: 'Nome da avaliação'
     },
     {
+    name: 'foto_avaliacao',
+      type: 'image',
+      title: 'Foto da avaliacao'
+    },
+    {
       name: 'instagram_usuario',
       type: 'string',
       title: 'Instagram do usuário',
